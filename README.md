@@ -1,5 +1,12 @@
 # sso_project
 
+## Contexte
+```
+Browser: sign with google or facebook (auth/provider) --> server express app (node) : auth handler --> permission
+receive user detail from provider / lookup create user in own database / creat unique cookie --> 
+browser stores cookie --> decode cookie & retrieve user information
+```
+
 ## Configuration
 Authentification google - facebook lié au compte utilisateur
 
